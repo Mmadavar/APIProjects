@@ -1,0 +1,7 @@
+{
+  "name": "CMPSC421HW2",
+  "version": "1.0.0",
+  "dependencies": {
+    "d3": "^7.8.5"
+  }
+}

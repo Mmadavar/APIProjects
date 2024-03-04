@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Tag Cloud Chart</title>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-tag-cloud.min.js"></script>
+  <link rel="stylesheet" href="main.css">
+  <style>
+    html, body, #container {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+
+</head>
+<body>
+
+<textarea id="word">Insert a word here and click to submit</textarea>
+<button id="submit">Submit</button>
+<div id="synonyms"></div>
+
+<div id="container"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
